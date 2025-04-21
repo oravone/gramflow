@@ -163,3 +163,4 @@ fabric.properties
 /node_modules/typescript/SECURITY.md
 /node_modules/typescript/ThirdPartyNoticeText.txt
 /node_modules/.package-lock.json
+!/teleflow.iml

@@ -1,8 +1,10 @@
 import {MessageService} from "../message/MessageService";
-import {httpClient} from "../Client/Client";
+import {httpClient} from "../client/HttpClient";
+import {BotService} from "../bot/BotService";
 
 export class Bot {
     public readonly messageService: MessageService;
+    public readonly botService: BotService;
 
     private readonly httpClient: httpClient;
 
@@ -10,5 +12,6 @@ export class Bot {
         this.httpClient = new httpClient(token);
 
         this.messageService = new MessageService(this.httpClient);
+        this.botService = new BotService(this.httpClient);
     }
 }
