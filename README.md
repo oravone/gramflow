@@ -1,9 +1,3 @@
-Конечно, Лаура! Вот тебе суперчистый, стильный и профессиональный README.md для @oravone/gramflow, полностью на английском — с бейджами, логикой, примерами и ссылками:
-
-⸻
-
-
-
 # 🌐 gramflow · Telegram Bot SDK for TypeScript
 
 [![npm version](https://img.shields.io/npm/v/@oravone/gramflow?color=%2300aced&logo=npm&style=flat-square)](https://www.npmjs.com/package/@oravone/gramflow)
