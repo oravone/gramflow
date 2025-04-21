@@ -21,7 +21,7 @@ From GitHub Packages:
 ```bash
  npm install @oravone/gramflow --registry=https://npm.pkg.github.com
 ```
-⸻
+---
 
 🚀 Quick Start
 ```ts
