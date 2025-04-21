@@ -38,6 +38,7 @@ jobs:
         with:
           node-version: 20
           registry-url: https://npm.pkg.github.com/
+          scope: "@oravone"
       - run: npm ci
       - run: npm config set registry https://npm.pkg.github.com
       - run: npm publish
