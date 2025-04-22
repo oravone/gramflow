@@ -5,10 +5,11 @@ class MessageService {
     constructor(client) {
         this.client = client;
     }
-    async sendMessage(chatId, text) {
+    async sendMessage(chatId, text, replyMarkup) {
         return this.client.request('sendMessage', {
             chat_id: Number(chatId),
-            text: text
+            text: text,
+            reply_markup: replyMarkup,
         });
     }
 }

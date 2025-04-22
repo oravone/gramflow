@@ -5,7 +5,6 @@ import {BotService} from "../bot/BotService";
 export class Bot {
     public readonly messageService: MessageService;
     public readonly botService: BotService;
-
     private readonly httpClient: httpClient;
 
     constructor(token: string) {
