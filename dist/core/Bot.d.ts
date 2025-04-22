@@ -5,4 +5,5 @@ export declare class Bot {
     readonly botService: BotService;
     private readonly httpClient;
     constructor(token: string);
+    sendMessage(chatId: number | string, text: string): Promise<void>;
 }

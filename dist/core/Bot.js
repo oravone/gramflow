@@ -10,5 +10,8 @@ class Bot {
         this.messageService = new MessageService_1.MessageService(this.httpClient);
         this.botService = new BotService_1.BotService(this.httpClient);
     }
+    async sendMessage(chatId, text) {
+        await this.messageService.sendMessage(chatId, text);
+    }
 }
 exports.Bot = Bot;

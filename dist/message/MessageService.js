@@ -7,7 +7,7 @@ class MessageService {
     }
     async sendMessage(chatId, text) {
         return this.client.request('sendMessage', {
-            chat_id: chatId,
+            chat_id: Number(chatId),
             text: text
         });
     }

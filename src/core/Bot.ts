@@ -14,4 +14,8 @@ export class Bot {
         this.messageService = new MessageService(this.httpClient);
         this.botService = new BotService(this.httpClient);
     }
+
+    public async sendMessage(chatId: number | string, text: string): Promise<void> {
+        await this.messageService.sendMessage(chatId, text);
+    }
 }
